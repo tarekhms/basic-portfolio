@@ -237,7 +237,7 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 60px);
+  min-height: calc(100svh - 60px);
 }
 
 main .icons {
@@ -422,7 +422,10 @@ main#home h1 {
   }
 
   .menu-branding .portrait {
-    background: url("../img/portrait_small.jpg");
+    background-blend-mode: luminosity;
+    background: url("../img/sm/02.jpg"), black;
+    background-position: -18px -18px;
+    background-size: 140%;
     width: 150px;
     height: 150px;
   }
