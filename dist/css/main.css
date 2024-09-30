@@ -337,7 +337,7 @@ main#home h1 {
 }
 
 .boxes div:hover {
-  padding: 0.5rem 0.8rem;
+  padding: 0.5rem 1rem;
   background: #eece1a;
   color: #000;
 }
@@ -447,7 +447,7 @@ main#home h1 {
 
 @media screen and (max-width: 600px) {
   main {
-    padding: 2rem;
+    padding: 6rem 1rem;
   }
 
   main #home h1 {
@@ -469,6 +469,6 @@ main#home h1 {
 
   .boxes div {
     font-size: 1rem;
-    padding: 1.5rem 0;
+    padding: 1.5rem 1rem;
   }
 }
