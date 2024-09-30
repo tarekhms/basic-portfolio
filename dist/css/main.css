@@ -441,7 +441,7 @@ main#home h1 {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   main {
     padding: 2rem;
   }
@@ -457,5 +457,9 @@ main#home h1 {
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .menu .nav-link {
+    font-size: 2rem;
   }
 }
