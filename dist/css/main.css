@@ -427,10 +427,10 @@ main#home h1 {
   }
 
   .menu-branding .portrait {
-    background-blend-mode: luminosity;
-    background: url("../img/sm/02.jpg"), black;
-    background-position: -18px -18px;
-    background-size: 140%;
+    /* background-blend-mode: luminosity; */
+    background: url("../img/sm/04.jpg"), black;
+    background-position: -75px -30px;
+    background-size: 210%;
     width: 150px;
     height: 150px;
   }
